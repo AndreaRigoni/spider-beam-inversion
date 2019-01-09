@@ -195,17 +195,11 @@ AS_ECHO()
 
 
 
-AC_CONFIG_FILES( 
+AC_CONFIG_FILES(
                  Makefile
 				 .gitignore
 				 src/Makefile
-				 src/qt_example/Makefile
-				 src/sh_template/Makefile
-dnl				 src/libjit_examples/Makefile
-				 src/parse_examples/Makefile
-				 src/nodejs/Makefile				 
-				 src/project_variables/Makefile
-				 src/mds_example/Makefile
+				 src/beampy1/Makefile
 				 doc/Makefile
 				 doc/wiki/Makefile
 				 ext/Makefile

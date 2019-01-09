@@ -90,4 +90,28 @@ $(call _ext_bootstrap,mdsplus)
 $(call _ext_configure,mdsplus)
 
 
+DOWNLOADS += tensorflow
+tensorflow: ##@ext tensorflow
+tensorflow_URL = https://github.com/tensorflow/tensorflow.git
+tensorflow_BRANCH = master
+
+# python packages needed for tf
+PYTHON_PACKAGES = pip six numpy wheel mock
+
+
+tf_DOCKER_IMAGE = tensorflow/tensorflow:nightly-devel-py3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

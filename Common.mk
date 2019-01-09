@@ -57,3 +57,6 @@ reconfigure: ##@miscellaneous re-run configure with last passed arguments
 
 
 
+locale-gen: USER = root
+locale-gen: ##@@docker set locale in the docker container instance
+	@ locale-gen $${LANG}
